@@ -1,2 +1,2 @@
 # odin-recipe-project
-xdjscipdsc
+I learned many things 
