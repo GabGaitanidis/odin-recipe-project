@@ -39,3 +39,10 @@ h1{
     list-style: none;
     line-height: 2.9;
 }
+.ingredients ul{
+    text-align: left;
+    line-height: 2.3;
+}
+.ingredients{
+    margin-top: 40px;
+}
