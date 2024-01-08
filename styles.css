@@ -36,14 +36,48 @@ h1{
 .prep{
     display: flex;
     list-style: none;
-    line-height: 1.9;
+    justify-content: space-evenly;
 }
-.ingredients ul{
+.ingredients-container{
+    display: grid;
+    grid-template-columns: auto  auto;
+    max-height: 400px;
+}
+.ingredients-container ul{
     text-align: left;
     line-height: 2.3;
 }
-.ingredients{
+.ingredients-container{
     margin-top: 40px;
     text-align: left;
 }
-.prep ul
+.items{
+    font-size: 13px;
+}
+.directions{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px dotted;
+    background-color: rgb(219, 173, 114);
+}
+.directions h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.directions div{
+    margin: 20px;
+}
+.btn{
+    text-align: center;
+    margin: 30px;
+}
+a{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
